@@ -1,0 +1,17 @@
+.lista-sim{
+    list-style-type: none;
+}
+.lista-circulos{
+    list-style-type: circle;
+}
+
+.lista-cuadrados{
+    list-style-type: square;
+}
+
+.lista-cuadrados{
+    list-style-type: upper-roman;
+}
+.lista-griegos{
+    list-style-type: lower-greek;
+}

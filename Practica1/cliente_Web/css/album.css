@@ -1,0 +1,45 @@
+ul.fotos{
+    background-color: blueviolet;
+    width: 970px;
+    margin: 25px 10px 0 10px;
+}
+ul.fotos li{
+    display: inline;
+}
+ul.fotos a{
+    display: inline;
+    float: left;
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    box-shadow: 10px 3px 6px rgba(0,100,100, .25);
+    transform: rotate(2deg);
+}
+ul.fotos img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 12px;
+}
+ul.fotos a::after{
+    content: attr(title);
+    
+}
+
+ul.fotos li:nth-child(3n) a{
+    transform: rotate(-15deg);
+    position: relative;
+    right: 15px;
+}
+ul.fotos li:nth-child(6n) a{
+    transform: none;
+    position: relative;
+    top: -5px;
+}
+ul.fotos li a:hover{
+    transform: scale(1.25);
+    box-shadow: 10px 3px 6px rgba(0,100,100, .25);
+    position: relative;
+}
+

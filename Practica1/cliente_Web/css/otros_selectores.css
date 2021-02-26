@@ -1,0 +1,22 @@
+a{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: #FFF;
+    background: rgb(238, 113, 200);
+    text-decoration: underline;
+} 
+a:focus{
+    color: rgb(15, 0, 82);
+    text-decoration: dotted;
+}
+a:active{
+    color: deepskyblue;
+    background-color: whitesmoke;
+    text-decoration: line-through;
+    
+}
